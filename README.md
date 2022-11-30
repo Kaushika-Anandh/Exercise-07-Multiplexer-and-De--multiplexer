@@ -1,8 +1,15 @@
+Exp: 07
+
+Date:18.10.2022
+
 # Exercise-07-Multiplexer-and-De-multiplexer
-### AIM: To implement 4 X1 multiplexer and 1X4 de multiplexer using verilog and validate its outputs
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
-### THEORY 
+## AIM: 
+To implement 4 X1 multiplexer and 1X4 de multiplexer using verilog and validate its outputs
+## HARDWARE REQUIRED:  
+– PC, Cyclone II , USB flasher
+## SOFTWARE REQUIRED:  
+Quartus prime
+## THEORY 
 
 ## What are Multiplexer and Demultiplexer?
 In-network transmission, both the multiplexer and demultiplexer are combinational circuits. A multiplexer selects an input from several inputs then it is transmitted in the form of a single line. An alternative name of the multiplexer is MUX or data selector. A demultiplexer uses one input signal and generates many. So it is known as Demux or data distributor.
@@ -46,7 +53,7 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 
  
  
-### Procedure
+## Procedure
 Step 1: Start the module using module projname().
 
 Step 2: Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
@@ -60,7 +67,7 @@ Step 5: End the module.
 Step 6: Generate RTL realization and timing diagrams.
 
 
-### PROGRAM 
+## PROGRAM 
 ```
 /*
 Program for Multiplexer and Demultiplexer and verify its truth table in quartus using Verilog programming.
@@ -112,5 +119,5 @@ endmodule
 ![ss5](https://user-images.githubusercontent.com/94164580/202907151-24696049-614d-49b0-b492-0df9e763f98a.png)
 ### TRUTH TABLE 
 ![ss6](https://user-images.githubusercontent.com/94164580/202907153-e692e6f6-5ee7-4dd0-a3d7-399cda3ff0f7.png)
-### RESULTS 
+## RESULT
 Hence 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
